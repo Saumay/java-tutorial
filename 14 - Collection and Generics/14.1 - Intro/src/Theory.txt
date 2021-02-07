@@ -1,0 +1,40 @@
+collection - the concept
+Collection - the interface
+Collections - the class
+
+Collection (Interface)
+	List (Interface)
+		ArrayList (Class)
+		LinkedList (Class)
+	Set (Interface)
+		HashSet (Class)
+		TreeSet (Class)
+	Map
+
+Collection example:
+	- If we know that the size will be fixed, go for normal array as arrays are faster.
+	- If we know that size might change, go for Collection.
+	
+	- Basic code using collection (Any type of element can be added)
+			Collection al = new ArrayList();        // by default, you can add Object type to this list
+			al.add(1);
+			al.add(2);
+			al.add("Patna");
+	
+	- If type of element has to be restricted, use Generics
+			Collection<Integer> a1 = new ArrayList<Integer>();
+			a1.add(1);
+			a1.add(2);		                        // can't add string now
+	
+	- Collections got introduced in 1.2
+	
+	- Generics got introduced in 1.5
+	
+	- From 1.7, we don't need generic on the object side
+			Earlier:
+				Collection<Integer> a1 = new ArrayList<Integer>();
+			In and after 1.7:
+				Collection<Integer> a1 = new ArrayList<>();
+				
+	- If we want to add element at certain index, Collection doesn't have that functionality. It's present inside list.
+			List<Integer> al = new ArrayList<>();

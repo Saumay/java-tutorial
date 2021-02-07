@@ -1,0 +1,16 @@
+.class -> secure
+Can't be read through normal editors
+
+javac filename.java
+java Classname
+
+For a public class, class and filename should be same.
+Reason:	Since, public class can be accessed by anyone and from anywhere, compiler would have to search all the .java files in file system for searching that public class.
+		On the other hand, if filename is same as class name, it's easier for compiler to search that file.
+
+We can't have more than 1 public class in same .java source file.
+Reason: You can't name file with any one class name then. Compilation Error
+
+Comments:
+// : Single line
+/*  */ : Multiline Comment

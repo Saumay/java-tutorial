@@ -1,0 +1,5 @@
+Editor -> Notepad, Eclipse, Netbeans, Intellij
+Compiler -> javac
+Run -> jvm (Already present while installing Windows, Linux, Mac but old version)
+
+javac needs to downlaoded. Will download jvm with it

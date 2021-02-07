@@ -1,0 +1,23 @@
+Interface : Adjective
+	Camel Case
+	Ex- Runnable, Readable, Remote
+
+Class : Noun
+	Camel Case
+	Ex- Student, Person
+
+Method : Verb
+	camel case starting with small letter
+	Ex- performAction, run, print, write
+
+Variable
+	camel case starting with small letter
+	Ex- stockPrice, bankDetails
+
+Constant
+	All Caps
+	Ex- PI, DENSITY, MAX_PRICE
+	
+Packages
+	All small
+	Ex- com.example.api

@@ -1,0 +1,1 @@
+Misconception: You should learn C++ before learning Java

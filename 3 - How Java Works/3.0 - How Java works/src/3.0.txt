@@ -1,0 +1,2 @@
+Java Code --> Converted to Bytecode by compiler --> Can be run by JVM
+.java --> .class --> can be run by JVM
