@@ -1,31 +1,9 @@
 /*
 Usages of final keyword
-	1) with a variable 	- no one change the variables value
-	2) with a method   	- no one override the method
+	1) with a variable 	- no one can change the variables value
+	2) with a method   	- no one can override the method
 	3) with a class		- no one can inherit the class
 */
-
-class A {
-
-	final public void show() {					// No class can override this method now
-		System.out.println("In A show");
-	}
-}
-
-final class B extends A {
-	/*
-	public void show() {
-	}
-	*/
-}
-
-/*
-class C extends B {
-}
-
-Can't extend because B is final class
-*/
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -41,3 +19,23 @@ public class Main {
 		System.out.println(j);
 	}
 }
+
+
+class A {
+
+	final public void show() {					// No class can override this method now
+		System.out.println("In A show");
+	}
+}
+
+final class B extends A {
+	/*
+	public void show() {		// Can't override method because show is final method
+	}
+	*/
+}
+
+/*
+class C extends B { 			// Can't extend because B is final class
+}
+*/

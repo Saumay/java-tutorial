@@ -3,10 +3,11 @@ public class JaggedArray{
 	{
 		// static initialization
 		int p[][] = {
-			{5,6,7,8},
-			{6,9},
-			{9,8,6}				
-		};		
+				{5,6,7,8},
+				{1,2},
+				{9,10,11},
+				{}
+		};
 		printArray(p);
 		
 		int p2[][] = new int[3][];
@@ -20,10 +21,9 @@ public class JaggedArray{
 		System.out.println();
 
 		// For each loops works amazingly well for jagged arrays
-		for(int[] row:array)
-		{
-			for(int i:row)
-				System.out.print(i+" ");
+		for(int[] row : array) {
+			for(int i : row)
+				System.out.print(i + " ");
 			System.out.println();
 		}
 	}		

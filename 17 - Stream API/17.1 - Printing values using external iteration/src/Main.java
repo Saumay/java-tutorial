@@ -15,16 +15,11 @@ Ways to print values of a list:
         - for each loop
     Internal Iterations (loop inside the object)
         - forEach method
-
-ForEach method:
-    - accepts values of Consumer interface
-
  */
 
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,21 +45,5 @@ public class Main {
         for(int value : values) {
             System.out.println(value);
         }
-
-
-        // Printing values using internal iterations
-        // 1) Using forEach method
-        values.forEach(new Consumer<Integer>() {
-            @Override
-            public void accept(Integer integer) {
-                System.out.println(integer);
-            }
-        });
-
-        values.forEach(value -> System.out.println(value));
-
-        System.out.println();
-
-        values.forEach(System.out::println);                // replacing lambda with method reference
     }
 }

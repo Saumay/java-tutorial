@@ -45,6 +45,5 @@ public class TwoDimensionalArray{
 				System.out.print(i+" ");
 			System.out.println();
 		}
-
 	}
 }

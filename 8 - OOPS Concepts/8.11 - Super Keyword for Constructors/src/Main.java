@@ -1,5 +1,21 @@
-class A {
+public class Main {
+	public static void main(String[] args) {
+		A a = new A();
+		System.out.println();
 
+		B b = new B();				// will implicitly call no argument constructor of A
+		System.out.println();
+
+		B b2 = new B(10.10);		// will implicitly call no argument constructor of A
+		System.out.println();
+
+		B b3 = new B(5);			// will call parametrized constructor of A first since super(i) is called
+		System.out.println();
+	}
+}
+
+
+class A {
 	// Implicitly super() method is called while calling a constructor
 	// For A, super() method will be called and Object's class constructor will be executed
 	public A() {
@@ -11,26 +27,19 @@ class A {
 	}
 }
 
+
 class B extends A {
 	
 	public B() {
 		System.out.println("Inside B");
 	}
-	 
+
 	public B(int i) {
 		super(i);
 		System.out.println("Inside B int");
 	}
-}
 
-public class Main {
-
-	public static void main(String[] args) {
-		A a = new A();
-		System.out.println();
-		B b = new B();
-		System.out.println();
-		B b2 = new B(5);			// will call parametrized constructor of A since super(i) is called
-		System.out.println();
+	public B(double d) {
+		System.out.println("Inside B double");
 	}
 }

@@ -18,6 +18,7 @@ public class UserDefinedExceptions
 			System.out.println(ex);
 		}
 		catch(MyException ex) {
+			ex.printStackTrace();
 			System.out.println(ex);
 		}
 	}

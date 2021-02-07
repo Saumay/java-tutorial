@@ -22,7 +22,6 @@ public class Main {
         Collections.sort(students);
 
         students.forEach(System.out::println);
-
     }
 }
 

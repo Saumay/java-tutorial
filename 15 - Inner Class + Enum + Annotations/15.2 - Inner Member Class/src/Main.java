@@ -2,15 +2,17 @@
 Types of Inner Classes:
     1) Member Class
     2) Static Class
-    3) Anonymous Inner Class
+    3) Anonymous Inner Class and Lambda
 
 Class files names:
     Normal classes:
         A.class
         B.class
-    Inner classes: (Parent Class$InnerClass.class)
+    Inner classes: (ParentClass$InnerClass.class)
         A.class
         A$B.class
+    Anonymous Inner classes: (ParentClass$SerialNumberOfClass.class)
+        Main$1.class
  */
 
 public class Main {
@@ -36,10 +38,6 @@ public class Main {
         A.C cObj = new A.C();
         cObj.mc = 20;
         System.out.println(cObj.mc);
-
-
-        // 3) Anonymous Inner Class
-
     }
 }
 

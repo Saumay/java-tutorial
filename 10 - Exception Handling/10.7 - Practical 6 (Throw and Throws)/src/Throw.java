@@ -18,10 +18,6 @@ class Throw
 			i = j + k;
 			if(i<10)
 				throw new ArithmeticException();
-			
-			// Won't be caught since Exception isn't caught
-			// if(i<20)
-			// 		throw new Exception("Value should be less than 20");
 		}
 		catch(ArithmeticException ex) {
 			System.out.println("Caught: sum should be more than 10");

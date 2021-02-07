@@ -28,15 +28,35 @@ public class Main {
 		Abc abc = new AbcImpl();
 		abc.show();				// will call Abc interface show
 
-		AbcImpl abc2 = new AbcImpl();
-		abc2.show();			// will call Abc interface show
+		System.out.println();
 
-		Child child = new Child();
-		child.show();			// will call Parent class show
+		AbcImpl abcImpl = new AbcImpl();
+		abcImpl.show();			// will call Abc interface show
+
+		System.out.println();
+
+		Child1 child1 = new Child1();
+		child1.show();			// will call show overrided by Child1
+		Abc child1Abc = new Child1();
+		child1Abc.show();		// will call show overrided by Child1
+		Xyz child1Xyz = new Child1();
+		child1Xyz.show();		// will call show overrided by Child1
+
+		System.out.println();
+
+		Child2 child2 = new Child2();
+		child2.show();			// will call Parent class show
+		Abc child2Abc = new Child2();
+		child2Abc.show();		// will call Parent class show
+		Xyz child2Xyz = new Child2();
+		child2Xyz.show();		// will call Parent class show
+		// will call Parent class show
 		/* Third Rules in Java:
 			- show is present in Parent, Abc and Xyz.
 			- But, it will call Parent's show because in Java, class is stronger than interface. And for extending class, there is no multiple inheritance. So, ambiguity isn't there.
 		*/
+
+		System.out.println();
 
 		Abc.printStatic();		// will call Abc interface printStatic
 	}
@@ -70,6 +90,14 @@ interface Xyz {
 }
 
 
+class Child1 implements Abc, Xyz {
+	@Override								// would have to override show because it inherits 2 show methods from different interfaces
+	public void show() {
+		System.out.println("In Child1 class show");
+	}
+}
+
+
 class Parent {
 	public void show() {
 		System.out.println("In Parent class Show");
@@ -77,12 +105,14 @@ class Parent {
 }
 
 
-class Child extends Parent implements Abc, Xyz {
+class Child2 extends Parent implements Abc, Xyz {
+	// 3 show methods are available here. But Parent class show will get priority
 }
+
 
 /*
 interface Error
 {
-	default boolean equals(Object o) {		// error: default method equals in interface Error overrides a member of java.lang.Object
+	default boolean equals(Object o) {		// error: default method 'equals' in interface Error overrides a member of java.lang.Object
 	}
 }*/

@@ -43,7 +43,7 @@ By default, every method in an interface is 'public' and 'abstract'
 
 Three types of interfaces:
 	1) Marker interface -> without any methods
-	2) Functional Interface -> contains only Single Abstract Method
+	2) Functional Interface -> contains only Single Abstract Method (SAM)
 			- Enables lambda expression (ADDED IN JAVA 8)
 			- Since this interface contains only 1 method, class name and method name can be omitted while creating anonymous class
 			- Lambda is nothing but a short version of creating anonymous class

@@ -1,3 +1,21 @@
+public class Main {
+
+	public static void main(String[] args) {
+		A a = new A();
+		a.show();
+
+		System.out.println();
+
+		B b = new B();
+		b.show();
+
+		System.out.println();
+
+		b.showModifiedIForA();
+	}
+}
+
+
 class A {
 
 	int i = 5;
@@ -5,6 +23,7 @@ class A {
 		System.out.println("Inside A; i = " + i);
 	}
 }
+
 
 class B extends A {
 	
@@ -15,27 +34,9 @@ class B extends A {
 		super.show();											// can also call A's show method using super
 	}
 	
-	public void show_modified_i() {
+	public void showModifiedIForA() {
 		super.show();
 		super.i = 15;
 		super.show();
-	}
-}
-
-public class Main {
-
-	public static void main(String[] args) {
-		A a = new A();
-		a.show();
-		
-		System.out.println();
-		
-		B b = new B();
-		System.out.println();
-		b.show();
-	
-		System.out.println();
-
-		b.show_modified_i();
 	}
 }

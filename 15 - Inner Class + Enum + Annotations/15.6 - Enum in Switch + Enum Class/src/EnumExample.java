@@ -10,7 +10,7 @@ Let's see what happens internally behind the scenes
             static final Mobile SAMSUNG = new Mobile();
             static final Mobile HTC = new Mobile();
         }
-    - Every enum in java extends Enum class
+    - Every enum in java extends Enum class, which is an abstract class
     - We can't make enum extend any other class, but it can implement interface
 
 Since, enums are converted into class, we can have method also in an enum.
@@ -52,7 +52,7 @@ public class EnumExample {
         System.out.println(Mobile.HTC.ordinal());
 
         // - Accessing all the Mobile objects using values(). Since they are ordered, they can be returned in an array.
-        Mobile mobiles[] = Mobile.values();     // values() method isn't present anywherw
+        Mobile mobiles[] = Mobile.values();     // values() method isn't present anywhere. Not even in Enum class. Provided by compiler
         for(Mobile mobile : mobiles) {
             System.out.println(mobile);
         }

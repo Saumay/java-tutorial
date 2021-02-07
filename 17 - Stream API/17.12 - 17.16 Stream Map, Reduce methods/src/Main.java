@@ -1,3 +1,12 @@
+/*
+External Iterations: (Normal loop)
+    - focus on how to do
+    - focus on what to do
+
+Internal Iterations: (Stream API)
+    - just focus on what to do
+ */
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.BinaryOperator;
@@ -21,7 +30,7 @@ public class Main {
 
         /*
         2) Using Stream API:
-            Mutation is happening in traditional scenario since value of result is continously changing after each iteration.
+            Mutation is happening in traditional scenario since value of result is continuously changing after each iteration.
             Mutation makes system slow because concurrency is not achieved.
 
             Number of mutations are less while using Streams.

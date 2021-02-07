@@ -8,6 +8,7 @@ public class Example1 {
 	}
 }
 
+
 abstract class MaheshPhone {							// Abstract class
 	public void call() {
 		System.out.println("Calling..");
@@ -17,6 +18,7 @@ abstract class MaheshPhone {							// Abstract class
 	abstract public void dance();
 }
 
+
 abstract class RameshPhone extends MaheshPhone {		// Abstract class
 	public void move() {
 		System.out.println("Moving..");
@@ -24,7 +26,8 @@ abstract class RameshPhone extends MaheshPhone {		// Abstract class
 	
 	abstract public void dance();
 }
-	
+
+
 class SureshPhone extends RameshPhone {					// Concrete class
 	public void dance() {
 		System.out.println("Dancing..");

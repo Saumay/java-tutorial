@@ -30,12 +30,9 @@ public class ThreeDimensionalArray{
 		}
 
 		System.out.println("Using for-each loop:");
-		for(int[][] i:c)
-		{
-			for(int[] j:i)
-			{
-				for(int k:j)
-				{
+		for(int[][] i : c) {
+			for(int[] j : i) {
+				for(int k : j) {
 					System.out.print(k + " ");
 				}
 				System.out.println();

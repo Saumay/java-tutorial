@@ -1,5 +1,16 @@
+public class Main {
+	public static void main(String[] args) {
+		A obj = new A();
+
+		// obj.i = 5;		will throw error because i is private
+		obj.setVar(5);
+		System.out.println(obj.getVar());
+	}
+}
+
+
 class A {
-	private int i;
+	private int i;			// Default value of i will be 0
 	
 	public int getVar() {
 		return this.i;
@@ -7,17 +18,6 @@ class A {
 	
 	public void setVar(int j) {
 		i = j;
-	}
-}
-
-public class Main {
-	public static void main(String[] args) {
-		A obj = new A();
-		// Default value of i will be 0
-		
-		// obj.i = 5;		will throw error
-		obj.setVar(5);
-		System.out.println(obj.getVar());
 	}
 }
 

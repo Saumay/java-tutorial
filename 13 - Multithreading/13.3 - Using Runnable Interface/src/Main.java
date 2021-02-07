@@ -1,14 +1,17 @@
 /*
 Two ways to do multi-threading:
     1) Using thread class           (in previous video)
-            - Make classes for which code has to be executed in a separate thread extend Thread class
+            - Make classes extend Thread class
             - Code whatever you want to be executed parallelly inside run method of class
             - Call start method using the objects
     2) Using Runnable interface     (in this video)
-            - Make classes for which code has to be executed in a separate thread extend Runnable interface
+            - Make classes implements Runnable interface
             - Code whatever you want to be executed parallelly inside run method of class
-            - Create thread object by passing class object as constructor
+            - Create thread object by passing class object in Thread constructor
             - Call start method using the objects of Thread class
+    3) Using lambda expressions     (next video)
+            - Same as using runnable interface
+            - But since runnable interface is functional interface, this can be achieved using lambda expressions also
  */
 
 public class Main {
@@ -20,6 +23,7 @@ public class Main {
         Thread t2 = new Thread(obj2);
 
         t1.start();
+        try { Thread.sleep(10); } catch (InterruptedException ignored) {}
         t2.start();
     }
 }

@@ -1,9 +1,9 @@
 In Java, there are both Errors and Exceptions
 
 Types of statements:
-	1) Normal
+	1) Normal Statement
 		int i=1;
-	2) Critical
+	2) Critical Statement
 		int i = j/k;
 		
 Exception Handling:

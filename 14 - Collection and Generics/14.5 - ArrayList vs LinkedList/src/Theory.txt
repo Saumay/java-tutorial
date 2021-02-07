@@ -1,0 +1,18 @@
+Both implement List interface
+Both provides same functionalities
+
+ArrayList
+    - Dynamic Array
+    - capacity is increased by 50% once current capacity is reached
+    - searching is efficient
+    - insertion and deletion is not efficient
+
+LinkedList
+    - Double linked list
+    - no fixed capacity
+    - insertion and deletion is efficient
+    - searching is not efficient
+
+Better choice: depends on requirement
+    - If search operations are more, use ArrayList
+    - If addition deletion operations in middle are more, use LinkedList

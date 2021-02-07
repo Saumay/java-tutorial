@@ -1,21 +1,26 @@
 class InheritanceMain {
 	public static void main(String[] args) {
 		A obj = new A();
-		
 		obj.method_1();
-		obj.method_2();
+
+		A obj2 = new B();
+		obj2.method_1();
+
+		B obj3 = new B();
+		obj3.method_1();
+		obj3.method_2();
 	}
 }
 
 class A {
-	method_1() {
+	void method_1() {
 	}
 }
 
 // We need A class to have method_2 also now. But we can't make any change to that class, because it's created by someone else.
-
+// Solution: INHERITANCE
 class B extends A {
-	method_2() {
+	void method_2() {
 	}
 }
 

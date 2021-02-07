@@ -1,6 +1,6 @@
 /* 
 throws:
-	- suppress the exception
+  * - suppress the exception
 	- doesn't handle the exception
 	- can be used when developer is sure that there will never be an exception
 	- If throws is not added, compiler will throw compile time error and will ask to add try/catch since it is a checked exception.

@@ -1,4 +1,4 @@
-// Finally block is used when you want to execute a statement everytime.
+// Finally block is used when you want to execute a statement everytime doesn't matter if exception occurs or not.
 
 import java.io.*;
 
@@ -13,10 +13,10 @@ class Main
 		j=2;
 		try {
 			System.out.println("Enter a number: ");
-			j = Integer.parseInt(br.readLine());	// Critical Statement but it's unchecked exception. Need not be handled.
-			
+			j = Integer.parseInt(br.readLine());			// Checked Exception: Java knows about it and has to be handled.
+
 			System.out.println("Output is: ");
-			k = i/j;								// Checked Exception. Java knows about it and has to be handled.
+			k = i/j;										// Unchecked exception: Need not be handled.
 		}
 		catch(IOException e) {						
 			System.out.println("Unable to parse" + e);
@@ -25,7 +25,7 @@ class Main
 			System.out.println("All other exceptions" + e);	
 		}
 		finally {
-			// br.close();								// Normally finally block is used to close resources
+			// br.close();									// Normally finally block is used to close resources
 			System.out.println("Finally BYE");
 		}
 		System.out.println(k);

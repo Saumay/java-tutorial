@@ -18,12 +18,14 @@ public class Main {
 
         // Printing values using internal iteration using forEach method
 
-        Consumer<Integer> consumer = new ConsumerImpl<>();  // 1) by creating object of class implementing Consumer interface
+        // 1) by creating object of class implementing Consumer interface
+        Consumer<Integer> consumer = new ConsumerImpl<>();
         values.forEach(consumer);
 
         System.out.println();
 
-        values.forEach(new Consumer<Integer>() {            // 2) using anonymous class implementing Consumer interface
+        // 2) using anonymous class implementing Consumer interface
+        values.forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer integer) {
                 System.out.println(integer);
@@ -32,15 +34,23 @@ public class Main {
 
         System.out.println();
 
-        values.forEach((Integer i) -> System.out.println(i));// 3) using lambda
+        // 3) using lambda
+        values.forEach((Integer i) -> System.out.println(i));
 
         System.out.println();
 
-        values.forEach(value -> System.out.println(value)); // 4) Since we know it's going to be Integer, no use of typecasting
+        // 4) Since we know it's going to be Integer, no use of typecasting
+        values.forEach(value -> System.out.println(value));
 
         System.out.println();
 
-        values.forEach(System.out::println);                // 5) replacing lambda with method reference
+        /*
+         5) replacing lambda with method reference
+            Method reference - passing method as an reference
+            :: - denotes method reference
+            obj::method - passing reference of method belonging to obj object
+         */
+        values.forEach(System.out::println);
     }
 }
 

@@ -5,6 +5,7 @@ Type Safety:
     - At compile time only, variable type is known
  */
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public class Main {
@@ -22,21 +23,26 @@ public class Main {
         // ContainerNumber<Boolean> obj4 = new ContainerNumber<Boolean>();      // Invalid because Boolean doesn't extends Number class
 
         ContainerNumber<Number> obj3 = new ContainerNumber<>();
-        obj3.demo(new ArrayList<Integer>());
+        obj3.demoExtends(new ArrayList<Number>());
+        obj3.demoExtends(new ArrayList<Integer>());
+        // obj3.demoExtends(new ArrayList<String>());                           // Invalid because String doesn't extends Number class
+        obj3.demoSuper(new ArrayList<Number>());
+        obj3.demoSuper(new ArrayList<Serializable>());
+        obj3.demoSuper(new ArrayList<Object>());
+        // obj3.demoSuper(new ArrayList<Integer>());                            // Invalid because Integer isn't a parent of Number class
     }
 }
 
 // Defining our own Generic
-class Container<T>   {
-    // Object value;        // Not type safe
-    T value;
-
-    public T getValue() {
-        return value;
-    }
+class Container<T> {
+    public T value;
 
     public void setValue(T value) {
         this.value = value;
+    }
+
+    public T getValue() {
+        return this.value;
     }
 
     public void show() {
@@ -48,11 +54,11 @@ class Container<T>   {
 class ContainerNumber<T extends Number>   {
     T value;
 
-    public void demo(ArrayList<? extends T > obj) {
+    // extends: Will accept all classes including Number and it's children
+    public void demoExtends(ArrayList<? extends T > obj) {
+    }
+
+    // super: Will accept all classes including Number and it's parent
+    public void demoSuper(ArrayList<? super T> obj) {
     }
 }
-
-// super: will accept all classes including Integer and it's parents
-class ContainerInteger<T extends > {
-
-        }

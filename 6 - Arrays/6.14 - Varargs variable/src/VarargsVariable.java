@@ -1,7 +1,10 @@
-	public class VarargsVariable {
+public class VarargsVariable {
 	public static void main(String[] args) {
 		Display obj = new Display();
 		obj.show(5,6,7);
+
+		System.out.println();
+
 		obj.show(5);
 		// Arrays.asList();				Implementation of varargs
 	}

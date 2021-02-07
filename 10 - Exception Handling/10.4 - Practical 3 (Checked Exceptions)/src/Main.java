@@ -1,5 +1,5 @@
-// Checked exceptions have to be handled.
-// Unchecked exceptions need not be handled.
+// Checked exceptions have to be handled for the code to compile.
+// Unchecked exceptions need not be handled, but it's good to handle them.
 
 import java.io.*;
 
@@ -14,13 +14,16 @@ class Main
 		j=2;
 		try {
 			System.out.println("Enter a number: ");
-			j = Integer.parseInt(br.readLine());	// Critical Statement but it's unchecked exception. Need not be handled.
+			j = Integer.parseInt(br.readLine());			// Checked Exception: Java knows about it and has to be handled.
 			
 			System.out.println("Output is: ");
-			k = i/j;								// Checked Exception. Java knows about it and has to be handled.
+			k = i/j;										// Unchecked exception: Need not be handled.
 		}
 		catch(IOException e) {						
 			System.out.println("Unable to parse" + e);
+		}
+		catch(Exception e) {
+			System.out.println("Unknown exception");
 		}
 		System.out.println(k);
 	}

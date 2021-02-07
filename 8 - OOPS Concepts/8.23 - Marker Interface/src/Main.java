@@ -7,18 +7,6 @@ Marker Interface:
 		- Serializable
 		- Remote
 */
-
-interface P 
-{
-}
-
-
-class Demo implements P {
-	void show() {
-		System.out.println("Hello");
-	}
-}
-
 class Main {
 	public static void main(String[] args) {
 		Demo demo = new Demo();
@@ -28,5 +16,16 @@ class Main {
 		else {
 			System.out.println("No Permissions");
 		}
+	}
+}
+
+
+interface P {
+}
+
+
+class Demo implements P {
+	void show() {
+		System.out.println("Hello");
 	}
 }

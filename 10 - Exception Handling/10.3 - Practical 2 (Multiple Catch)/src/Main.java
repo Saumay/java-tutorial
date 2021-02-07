@@ -21,6 +21,9 @@ class Main
 		catch(ArrayIndexOutOfBoundsException e) {			// ArithmeticException (Unchecked Exception)
 			System.out.println("Maxmium number of values is 4. " + e);		
 		}
+		catch(Exception e) {								// will check all other exceptions
+			System.out.println("Unknown Exception");
+		}
 		System.out.println(k);
 	}
 }
