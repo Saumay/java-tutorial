@@ -1,0 +1,11 @@
+In Java, there are both Errors and Exceptions
+
+Types of statements:
+	1) Normal Statement
+		int i=1;
+	2) Critical Statement
+		int i = j/k;
+		
+Exception Handling:
+	- All the names ending with 'able' are interfaces, except Throwable, which is a class.
+	- Critical statements should always be written inside try block

@@ -1,0 +1,7 @@
+int i = 5;			//OK
+double d = 5;		//OK
+float f = 5;		//OK
+
+float f = 5.5		//OK
+double d = 5.5		//OK
+int i = 5.5			//DATA LOSS

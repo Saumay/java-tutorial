@@ -1,0 +1,17 @@
+class FirstCode
+{
+	public static void main(String[] a)
+	{
+		System.out.print("Hello");
+	}
+}
+
+Steps to run java file:
+javac filename.java
+java Classname
+
+Important Question: What is the need of public static void keywords in Java?
+Answer:
+# void -> does not return anything
+# static -> If it was non-static, object was needed to be created first. But Old function should be the first piece of code to run in Java Application.
+# public -> to access main method from anywhere. Wherever main method is present, it should be accessible by JVM

@@ -1,0 +1,13 @@
+Packages: for better management of classes(similar to organizing files in pc)
+
+Generally, package is named after domain name since domain name is unique
+Ex:
+	Domain name:  telusko.com
+	Package name: com.telusko (to keep it unique)
+	
+	com->telusko->test
+	
+import com.telusko.* will fetch all the classes inside telusko package but not the classes present inside test package(nested classes are not fetched)
+
+We can't create classes with same names in same package
+We can create classes with same names in different package

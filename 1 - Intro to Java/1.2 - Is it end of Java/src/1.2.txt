@@ -1,0 +1,6 @@
+Java is used in majority fields:
+	Android
+	Cloud
+
+Java is faster
+Still better for enterprise level softwares

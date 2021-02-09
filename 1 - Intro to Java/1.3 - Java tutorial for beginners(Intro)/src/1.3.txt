@@ -1,0 +1,13 @@
+Java created by Sun Microsystems
+Team led by : James Gosling
+Original name : Oak
+
+.Net is a platform, ASP is language
+Java itself is a platform, and a language
+
+Core Java - programming and concepts
+Advanced Java - Frameworks
+
+JVM - For running any java application
+
+.java -> .class(Bytecode) -> JVM runs it

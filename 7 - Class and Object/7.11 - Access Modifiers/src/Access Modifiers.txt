@@ -1,0 +1,21 @@
+In C++ -> Access providers
+In Java -> Access modifiers
+
+Access Modifiers:
+	For class and interfaces:
+		final:
+			- to ensure that the class can't be extended. 
+			- to create an immutable class(Ex: String class).
+		abstract: for abstract class
+		public: class can be accessed from anywhere
+		default: class can't be accessed outside the package
+		
+		private: only inner class can be private
+		
+	For methods and variables:
+		final
+		abstract
+		public
+		private
+		protected - only child class can access
+		default

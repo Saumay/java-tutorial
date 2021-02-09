@@ -1,0 +1,14 @@
+Abstract Methods:
+	- Methods declared not defined
+	public abstract void login();		// when you only know the method signature, but not the implementation
+	
+Abstract Class:
+	- Abstract Methods can only be declared, not defined
+	- In abstract class, you can have both abstract methods and normal methods.
+	- You cannot create objects of abstract class
+	- Abstract class need not have any abstract method.
+	- But if a class has abstract methods, it should be abstract.
+	
+Old usages:
+	- Example1: When you only know the signature of a method but don't know the implementation, and want it to be implemented later
+	- Example2: When you have to pass object of a common type to a method and want to avoid code duplicacy.

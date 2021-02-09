@@ -1,0 +1,10 @@
+new basically provides memory to the reference.
+
+Ques - But how much memory to provide?
+Ans - That is decided by constructor
+
+Object creation in C++:
+	A obj;
+	
+Object creation in Java:
+	A obj = new A();

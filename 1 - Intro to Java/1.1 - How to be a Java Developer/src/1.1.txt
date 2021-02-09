@@ -1,0 +1,15 @@
+C - Only POP(Procedure Oriented Programming)
+C++ - POP and OOP
+Java - OOP
+
+Created by Sun Microsystems headed by James Gosling
+
+Books:
+Java Complete Reference
+Head First Java
+Java SCJP
+
+Exam for Java Programming: OCJP(Oracle Certified Java Programmer)
+
+Core Java : Concepts
+Advanced Java : Implementation of core java concepts

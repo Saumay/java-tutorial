@@ -1,0 +1,3 @@
+Interface:
+	- Allows a workaround for multiple inheritance, as Java directly doesn't support multiple inheritance.
+	- A class implementing the interfaces should implement methods of both the interfaces.
