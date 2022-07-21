@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // Using LocalDate
         LocalDate localDate = LocalDate.now();
@@ -68,7 +68,6 @@ public class Main {
         // Using LocalDateTime
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println(localDateTime);
-
     }
 }
 
