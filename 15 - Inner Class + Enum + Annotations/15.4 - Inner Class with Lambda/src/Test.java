@@ -23,7 +23,7 @@ Lambda:
         - Stream APIs
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // Traditional approach
         A obj = new AImpl();

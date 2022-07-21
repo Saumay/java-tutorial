@@ -1,4 +1,4 @@
-public class Main {
+public class Test {
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             for(int i=0;i<5;i++) {

@@ -3,7 +3,7 @@
 
 // So, StringBuffer is the better choice
 
-class Main {
+class Test {
 	public static void main(String[] args) {
 		StringBuffer sbf = new StringBuffer("Navin");
 		

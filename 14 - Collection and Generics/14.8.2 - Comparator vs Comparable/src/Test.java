@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Laptop> laptops = new ArrayList<>();
         laptops.add(new Laptop("Dell", 16, 800));

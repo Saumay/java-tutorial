@@ -1,5 +1,5 @@
 // this keyword : refers to current instance
-public class Main {
+public class Test {
 	public static void main(String[] args) {
 		A a = new A(5);
 		a.show();

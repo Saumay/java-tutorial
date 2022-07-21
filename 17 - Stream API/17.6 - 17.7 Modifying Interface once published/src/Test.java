@@ -7,7 +7,7 @@ Solution: From Java 1.8
     - default keyword (added in Java 1.8)
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Actor hero = new Hero();
         hero.act();

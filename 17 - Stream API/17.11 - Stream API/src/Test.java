@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Integer> values = new ArrayList<>();
         for(int i=1;i<5;i++) {

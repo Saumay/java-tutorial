@@ -1,4 +1,4 @@
-public class Main {
+public class Test {
 	public static void main(String[] args) {
 		// by creating implementation class
 		Abc obj = new AbcImpl();

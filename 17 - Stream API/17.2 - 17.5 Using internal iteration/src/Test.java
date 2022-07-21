@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1,2,3,4,5);
 

@@ -1,4 +1,4 @@
-class Main{
+class Test {
 	public static void main(String[] args) {
 		printCounter();
 		A obj1 = new A();

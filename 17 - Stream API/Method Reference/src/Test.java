@@ -9,7 +9,7 @@ Call by method:
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<String> values = Arrays.asList("Navin", "Manoj", "Saumay");
 

@@ -10,7 +10,7 @@ import java.util.Properties;
  * {@code Properties} file: is used to store configuration
  */
 
-public class Main {
+public class Test {
 
     private static final File PROPERTIES_FILE = new File("12 - File Handling + Serializable/12.2 - Properties file/src/config.properties");
 

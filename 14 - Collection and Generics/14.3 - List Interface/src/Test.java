@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // Using Collection interface
         Collection<Integer> values = new ArrayList<>();

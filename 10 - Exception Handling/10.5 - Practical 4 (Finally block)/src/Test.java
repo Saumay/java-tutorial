@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-class Main 
+class Test
 {
 	public static void main(String[] args) {
 		int i,j=1,k=0;

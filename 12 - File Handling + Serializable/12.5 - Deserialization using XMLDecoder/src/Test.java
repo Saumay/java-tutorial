@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.Serializable;
 import java.util.List;
 
-public class Main {
+public class Test {
     private static final File XML_FILE = new File("12 - File Handling + Serializable/12.4 - Serialization using XMLEncoder/src/obj.txt");
 
     public static void main(String[] args) throws FileNotFoundException {

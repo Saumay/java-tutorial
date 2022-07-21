@@ -15,7 +15,7 @@ Class files names:
         Main$1.class
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // 1) Member Inner Variable
         // We can directly create object of A

@@ -17,7 +17,7 @@ Use primitive type variables when you want speed
 
 import java.util.ArrayList;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         int i = 5;
         Integer iObj = Integer.valueOf(i);      // Boxing

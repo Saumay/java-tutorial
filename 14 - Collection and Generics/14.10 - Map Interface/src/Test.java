@@ -11,7 +11,7 @@ Map
     LinkedHashMap
         - keys ordered in insertion order
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         
         // HashMap

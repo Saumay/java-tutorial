@@ -1,7 +1,7 @@
 // join method: will wait for the thread to complete execution and join parent thread
 // isAlive method: returns true if thread is alive
 
-public class Main {
+public class Test {
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             for(int i=0;i<5;i++) {

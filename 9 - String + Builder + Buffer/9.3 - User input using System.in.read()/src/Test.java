@@ -8,7 +8,7 @@ Ways to take user input
         - not efficient
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) throws Exception {
         int i = System.in.read();       // returns ascii value of the next character in int format
         System.out.println(i);

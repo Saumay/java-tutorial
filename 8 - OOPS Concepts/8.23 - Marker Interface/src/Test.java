@@ -7,7 +7,7 @@ Marker Interface:
 		- Serializable
 		- Remote
 */
-class Main {
+class Test {
 	public static void main(String[] args) {
 		Demo demo = new Demo();
 		if(demo instanceof P) {

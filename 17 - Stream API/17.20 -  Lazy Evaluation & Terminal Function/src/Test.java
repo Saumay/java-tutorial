@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(12, 20, 35, 46, 55, 68);
 
@@ -49,8 +49,8 @@ public class Main {
          Proving lazy evaluation using below example.
          */
         int result3 = values.stream()
-                .filter(Main::isDivisible)
-                .map(Main::mapDouble)
+                .filter(Test::isDivisible)
+                .map(Test::mapDouble)
                 .findFirst()
                 .orElse(0);
         System.out.println(result3);

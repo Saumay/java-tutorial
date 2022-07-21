@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
 
         // Calculating time taken to add 1000000 elements in the ArrayList

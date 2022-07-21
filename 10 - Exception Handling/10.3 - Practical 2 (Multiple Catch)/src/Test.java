@@ -1,6 +1,6 @@
 // Multiple statements can be there for single try
 
-class Main
+class Test
 {
 	public static void main(String[] args) {
 		int i,j,k=0;

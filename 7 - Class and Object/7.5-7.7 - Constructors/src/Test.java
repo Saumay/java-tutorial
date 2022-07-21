@@ -1,4 +1,4 @@
-public class Main {
+public class Test {
 	public static void main(String[] args) {
 		A a = new A();			// Will call 1st constructor (without parameters)
 		A a2 = new A(5);		// Will call 2nd constructor (with int parameter)
@@ -58,4 +58,3 @@ Constructor :
  Imp:	8) Multiple constructors are allowed (constructor overloading)
  Imp:	9) Once we have manually defined a constructor, default constructor i.e. A() also needs to be defined manually. It won't be called implicitly now.
 */
-				

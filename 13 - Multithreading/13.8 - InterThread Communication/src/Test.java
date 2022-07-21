@@ -8,7 +8,7 @@ wait() and notify():
     - can only be called from a synchronized method
 */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Q q = new Q();
         new Producer(q);

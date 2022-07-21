@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Main {
+public class Test {
     private static final File FILE = new File("12 - File Handling + Serializable/12.1 - File Handling Example/src/demo.txt");
 
     public static void main(String[] args) throws IOException {

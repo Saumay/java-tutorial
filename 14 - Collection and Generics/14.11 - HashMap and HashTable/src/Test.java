@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
         map.put("name", "Navin");

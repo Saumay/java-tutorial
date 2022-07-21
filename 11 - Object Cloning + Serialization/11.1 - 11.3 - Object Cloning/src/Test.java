@@ -12,7 +12,7 @@
  *     <li>By storing the current object in a file and then reading it back</li>
  * </ul>
  */
-public class Main {
+public class Test {
     public static void main(String[] args) throws CloneNotSupportedException {
         A obj1 = new A();
         obj1.i = 5;

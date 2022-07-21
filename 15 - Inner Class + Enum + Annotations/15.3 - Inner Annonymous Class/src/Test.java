@@ -3,7 +3,7 @@ Anonymous Class: Can be used with any class
 Lambda: Can only be used with functional interfaces
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // ANONYMOUS CLASS
         A obj1 = new A();

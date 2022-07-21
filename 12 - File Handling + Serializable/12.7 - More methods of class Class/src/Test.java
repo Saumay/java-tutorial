@@ -1,4 +1,4 @@
-public class Main {
+public class Test {
     public static void main(String[] args) throws ClassNotFoundException {
         Class c = Class.forName("A");
         System.out.println(c.isInterface());

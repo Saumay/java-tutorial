@@ -20,7 +20,7 @@ Better choice: ArrayList
 import java.util.ArrayList;
 import java.util.Vector;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Vector v = new Vector();
         v.add(4);

@@ -8,7 +8,7 @@ Type Safety:
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
 
         // Testing our own Generic

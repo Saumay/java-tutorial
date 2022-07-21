@@ -18,7 +18,7 @@ Lambda expressions:
       - for making code more efficient
 */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         /*
         1) Using anonymous class:

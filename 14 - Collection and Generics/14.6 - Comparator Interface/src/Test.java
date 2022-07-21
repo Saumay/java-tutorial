@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         // 1) sort values normally
         List<Integer> values = new ArrayList<>();

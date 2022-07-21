@@ -5,7 +5,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1, 2, 3, 4, 5);
 
@@ -18,7 +18,7 @@ public class Main {
         System.out.println();
 
         // Using custom method reference
-        values.forEach(Main::doubleIt);
+        values.forEach(Test::doubleIt);
 
     }
 

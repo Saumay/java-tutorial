@@ -13,7 +13,7 @@ import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(12, 20, 35, 46, 55, 68);
 

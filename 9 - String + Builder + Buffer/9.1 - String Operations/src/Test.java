@@ -7,7 +7,7 @@ Write program which accepts 2 strings to do these:
 
 import java.util.Scanner;
 
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

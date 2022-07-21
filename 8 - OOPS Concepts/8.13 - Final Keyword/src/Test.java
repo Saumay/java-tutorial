@@ -4,7 +4,7 @@ Usages of final keyword
 	2) with a method   	- no one can override the method
 	3) with a class		- no one can inherit the class
 */
-public class Main {
+public class Test {
 
 	public static void main(String[] args) {
 		final int i = 5;

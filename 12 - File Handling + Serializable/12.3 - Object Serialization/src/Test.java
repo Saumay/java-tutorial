@@ -14,7 +14,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-public class Main {
+public class Test {
 
     private static final File FILE = new File("12 - File Handling + Serializable/12.3 - Object Serialization/src/obj.txt");
 

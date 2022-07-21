@@ -23,7 +23,7 @@ Default methods features:
 
 Static methods can now also be written in interface in Java 8
 */
-public class Main {
+public class Test {
 	public static void main(String[] args) {
 		Abc abc = new AbcImpl();
 		abc.show();				// will call Abc interface show

@@ -14,7 +14,7 @@ Two ways to do multi-threading:
             - But since runnable interface is functional interface, this can be achieved using lambda expressions also
  */
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Hi obj1 = new Hi();
         Hello obj2 = new Hello();
