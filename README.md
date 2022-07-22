@@ -2,7 +2,7 @@
 
 This repo contains all the codes and notes of the amazing [Core Java Tutorials by Telusko](https://www.youtube.com/watch?v=WOUpjal8ee4&list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK)
 
-The tutorial is broken down into 18 modules:
+This tutorial is broken down into 18 modules:
 1) Intro to Java
 2) Variables
 3) How Java works?
@@ -18,5 +18,5 @@ The tutorial is broken down into 18 modules:
 13) Multithreading
 14) Collection and Generics
 15) Inner Class + Enum + Annotations
-16) Stream API
-17) New DateTime api
+17) Stream API
+18) New DateTime api
