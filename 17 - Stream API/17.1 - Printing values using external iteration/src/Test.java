@@ -15,7 +15,7 @@ Ways to print values of a list:
         - for each loop
     Internal Iterations (loop inside the object)
         - forEach method
- */
+*/
 
 import java.util.Arrays;
 import java.util.Iterator;

@@ -5,7 +5,7 @@ External Iterations: (Normal loop)
 
 Internal Iterations: (Stream API)
     - just focus on what to do
- */
+*/
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,8 +19,8 @@ public class Test {
 
         // We need to find the sum of all the values*2
 
-        int result = 0;
         // 1) Using traditional for-each loop
+        int result = 0;
         for (int value : values) {
             result += value*2;
         }
