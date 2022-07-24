@@ -6,7 +6,7 @@ Ways to take user input
         - returns byte value in the form of int in range 0 to 255
         - that value is basically the ascii value of that character
         - not efficient
- */
+*/
 
 public class Test {
     public static void main(String[] args) throws Exception {
