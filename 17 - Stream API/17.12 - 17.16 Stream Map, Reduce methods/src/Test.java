@@ -5,7 +5,7 @@ External Iterations: (Normal loop)
 
 Internal Iterations: (Stream API)
     - just focus on what to do
- */
+*/
 
 import java.util.Arrays;
 import java.util.List;
