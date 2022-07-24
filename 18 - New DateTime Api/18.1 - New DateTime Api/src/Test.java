@@ -10,7 +10,7 @@
  Changes in new DateTime API:
     - new package time was created
     - Date object only print Date now, and not Time to avoid confusion
- */
+*/
 
 import java.time.Instant;
 import java.time.LocalDate;
