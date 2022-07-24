@@ -28,8 +28,8 @@ public class Test {
         System.out.println("BYEEE IN BETWEEN");    // This won't be printed at the end because Main thread is idle and will execute this before only.
         System.out.println("Is t1 alive: " + t1.isAlive());
 
-        t1.join();      // will wait for t1 to complete execution and join main thread
-        t2.join();      // will wait for t2 to complete execution and join main thread
+        t1.join();                                  // will wait for t1 to complete execution and join main thread
+        t2.join();                                  // will wait for t2 to complete execution and join main thread
         System.out.println("BYEE AT THE END");
 
         System.out.println("Is t1 alive: " + t1.isAlive());
