@@ -19,8 +19,8 @@ public class Test {
 
         // We need to find the sum of all the values*2
 
-        int result = 0;
         // 1) Using traditional for-each loop
+        int result = 0;
         for (int value : values) {
             result += value*2;
         }
