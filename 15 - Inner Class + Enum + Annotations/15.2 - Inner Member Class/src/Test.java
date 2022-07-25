@@ -43,14 +43,12 @@ public class Test {
 
 class A {
     int ma;
-
     // 1) Member Inner Class
     class B {
         int mb;
     }
 
     static int sa;
-
     // 2) Static Inner Class
     static class C {
         int mc;
